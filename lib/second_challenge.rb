@@ -7,10 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-groceries_array = []
-groceries.each |key, value|
-  groceries_array << value.each.values
-end
+groceries.values.flatten
 
 
 end
